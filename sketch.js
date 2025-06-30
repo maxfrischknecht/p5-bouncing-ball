@@ -11,6 +11,7 @@ function setup() {
 
 function draw() {
   background(0);
+  stroke(0,255,0);
   fill (255,0,0);
   ellipse(x, y, r*2, r*2);
   x += xspeed;
